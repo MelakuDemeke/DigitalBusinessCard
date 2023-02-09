@@ -1,0 +1,122 @@
+body {
+    background: #23252C;
+    margin: 0;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.info {
+    width: 317px;
+    display: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius:  20px;
+    background: #1A1B21;
+}
+
+.info > img{
+    width: 317px;
+    height: 317px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.info > p{
+    font-weight: 400;
+    color: #F3BF99;
+    font-size: 12.8px;
+    line-height: 15px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.info > h3{
+    color: white;
+    margin-bottom: 0;
+}
+
+.info > a {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #F5F5F5;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    border: none;
+    width: 115px;
+    border-radius: 6px;
+}
+
+.info--linkedin{
+    background: #5093E2;
+    color: white;
+    margin-left: 17px;
+}
+.fa-linkedin {
+    color: white;
+}
+.fa-envelope{
+    color: black;
+}
+
+.fa-github{
+    color: white;
+}
+
+/* about style */
+
+.about, .interests{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    width: 247px;
+    left: 152px;
+    text-align: left;
+    margin: 0 auto;
+    color: #DCDCDC;
+    margin-top: 0;
+}
+.about--title, .interests--title{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 5px;
+}
+
+
+/* footer section */
+.footer {
+    width: 317px;
+    height: 64px;
+    display: center;
+    margin: 24px auto;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer > a {
+    margin: 20px 12px;
+    color: #918E9B !important; 
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    grid-gap: 14px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    width: 317PX;
+    padding-bottom: 10px;
+}
+
+.fa-facebook-square, .fa-github, .fa-instagram, .fa-twitter-square {
+    color: #918E9B;
+}
